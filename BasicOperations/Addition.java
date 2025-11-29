@@ -8,8 +8,10 @@ public class Addition {
         System.out.println("Enter Num2: ");
         int num2 = input.nextInt();
         int sum = num1 + num2;
+        int mul = num1 - num2;
         
         System.out.println(num1 + " + " +num2 + " = " + sum);
+        System.out.println(num1 + " - " +num2 + " = " + mul);
         input.close();
     }
 }
