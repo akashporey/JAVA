@@ -7,10 +7,10 @@ public class EvenOdd {
         int x = sc.nextInt();
 
         if (x%2==0) {
-            System.out.println("Even num");
+            System.out.println("Even number");
         }
         else{
-            System.out.println("Not Adult");
+            System.out.println("Odd Number");
         }
         sc.close();
     }
