@@ -6,11 +6,17 @@ public class conditions3 {
 
         int button = sc.nextInt();
 
-        if (button==0) {
-            System.out.println("Even number");
+        if (button==1) {
+            System.out.println("Hello");
+        }
+        else if (button == 2){
+            System.out.println("Namaste");
+        }
+        else if (button ==3){
+            System.out.println("What's Up!");
         }
         else{
-            System.out.println("Odd Number");
+            System.out.println("Invalid Output");
         }
         sc.close();
     }
